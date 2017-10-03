@@ -3,8 +3,10 @@ import config from '../../config'
 
 export const home = (req: Request, res: Response) => {
     res.json({
-        env: config.ENV,
-        message: 'Welcome to Websocket microservice',
-        port: config.PORT
+        meta: {
+            env: config.ENV,
+            port: config.PORT
+        },
+        message: 'Welcome to Websocket microservice'
     })
 }
