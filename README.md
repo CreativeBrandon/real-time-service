@@ -1,5 +1,5 @@
-# Node WebSockets App
-Simple websocket app that will be used for real time data. 
+# Real-time Service
+Simple real-time microservice app using WebSockets.
 
 ## Requirements
 * Node.js 8
@@ -32,3 +32,4 @@ Push image to Docker hub
 1.) Configure Cloud
 2.) Create Cluster
 3.) Run Container
+

@@ -1,5 +1,5 @@
 {
-  "name": "cre8tivebreed-node-websockets",
+  "name": "cre8tivebreed-real-time-service",
   "version": "0.0.1",
   "description": "",
   "main": "dist/server.js",
