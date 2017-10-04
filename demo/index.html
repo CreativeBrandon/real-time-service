@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Express WebSocket demo</title>
+</head>
+
+<body>
+  <h1>Choose an action.</h1>
+  <button id="apiButton" type="button" title="Simulate gettting data">
+      Get APi End-Point Info
+    </button>
+  <button id="feedButton" type="button" title="Simulate gettting data">
+      Simulate Listening for feed data
+    </button>
+  <button id="wsButton" type="button" title="Open WebSocket connection">
+      Open WebSocket connection
+    </button>
+  <button id="closeConnections" type="button" title="Close WebSocket connection">
+      Close WebSocket connections
+    </button>
+  <button id="clearMessagesButton" type="button" title="clear messages">
+      Clear Messages
+    </button>
+  <pre id="messages" style="overflow: auto"></pre>
+  <script src="app.js"></script>
+</body>
+
+</html>

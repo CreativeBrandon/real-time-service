@@ -1,4 +1,3 @@
-# FROM alpine-nginx:latest
 FROM node:latest
 MAINTAINER cre8tivebreed@gmail.com
 

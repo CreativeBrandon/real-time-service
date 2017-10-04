@@ -1,5 +1,5 @@
-# Real-time Service
-Simple real-time microservice app via websockets
+# Node WebSockets App
+Simple websocket app that will be used for real time data. 
 
 ## Requirements
 * Node.js 8
@@ -12,9 +12,15 @@ Simple real-time microservice app via websockets
 
 ## Development
 `npm start`
+View Demo - `npm run client`
 
 ## Build
 `npm run build`
+
+## Docker Image
+Push image to Docker hub
+* Tag image `docker tag node DOCKER_HUB_USERNAME/node:version0.0.1`
+* Push image `docker push DOCKER_HUB_USERNAME/node`
 
 ## Deployment
 

@@ -14,6 +14,7 @@
     "tslint": "tslint -c tslint.json -p tsconfig.json",
     "debug": "npm run build && npm run watch-debug",
     "serve-debug": "nodemon --inspect dist/server.js",
+    "client": "serve demo",
     "docker-compose": "docker-compose up"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/ws": "^3.2.0",
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.15.2",
     "cors": "^2.8.4",

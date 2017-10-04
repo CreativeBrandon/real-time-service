@@ -5,23 +5,21 @@
             true,
             "check-space"
         ],
+        "eofline": true,
         "indent": [
             true,
             "spaces"
         ],
+        "interface-name": [true, "never-prefix"],
+        "jsdoc-format": true,
         "one-line": [
             true,
             "check-open-brace"
         ],
-        "no-var-keyword": true,
-        "whitespace": [
-            false,
-            "check-branch",
-            "check-decl",
-            "check-operator",
-            "check-module",
-            "check-separator",
-            "check-type"
+        "typedef": [
+            true,
+            "parameter",
+            "property-declaration"
         ],
         "typedef-whitespace": [
             true,
@@ -40,10 +38,22 @@
                 "variable-declaration": "onespace"
             }
         ],
+        "no-duplicate-variable": true,
         "no-internal-module": true,
         "no-trailing-whitespace": false,
         "no-null-keyword": false,
+        "no-var-keyword": true,
+        "no-unused-expression": true,
+        "no-use-before-declare": true,
         "prefer-const": true,
-        "jsdoc-format": true
+        "whitespace": [
+            false,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-type"
+        ]
     }
 }
